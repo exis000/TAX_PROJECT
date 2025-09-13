@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard - TaxBUZZ</title>
+</head>
+<body style="margin:0; height:100vh; font-family:Arial,sans-serif; background:linear-gradient(to bottom,#1E88E5,#ffffff); display:flex; flex-direction:column;">
+
+
+  <div style="display:flex; justify-content:space-between; align-items:flex-start; padding:20px 40px 10px 40px;">
+    <div>
+      <h1 style="margin:0; font-size:2.5rem; font-weight:900;">TaxBUZZ</h1>
+      <div style="margin-top:4px; font-weight:700;">Keep track on your Tax</div>
+    </div>
+    <div>
+      <div style="font-size:2rem; font-weight:900;">Dashboard</div>
+    </div>
+  </div>
+
+   <div style="flex:1; display:flex; flex-direction:column; justify-content:center; margin:0 40px; background:#2aa4bd; border-radius:30px; padding:20px; box-shadow:0 8px 0 rgba(0,0,0,0.2);">
+
+
+    <div style="display:flex; justify-content:space-between; margin-bottom:15px;">
+      <div style="position:relative; width:180px;">
+        <span style="position:absolute; left:10px; top:50%; transform:translateY(-50%); font-size:0.9rem;">🔍</span>
+        <input type="text" placeholder="Find" style="width:100%; padding:7px 10px 7px 28px; border:none; border-radius:20px; box-shadow:3px 3px 0 #7ec0cd; font-size:0.85rem; outline:none;">
+      </div>
+      <div style="width:180px;">
+        <input type="text" placeholder="Sort by: Month/Year" style="width:100%; padding:7px 10px; border:none; border-radius:20px; box-shadow:3px 3px 0 #7ec0cd; font-size:0.85rem; outline:none;">
+      </div>
+    </div>
+
+    <!-- Table -->
+    <div style="flex:1; background:rgba(0,0,0,0.1); border-radius:6px; padding:10px;">
+      <table style="width:100%; border-collapse:collapse; background:transparent;">
+        <tr>
+          <td style="border:2px solid #0e3d46; height:80px;"></td>
+          <td style="border:2px solid #0e3d46;"></td>
+          <td style="border:2px solid #0e3d46;"></td>
+        </tr>
+        <tr>
+          <td style="border:2px solid #0e3d46; height:80px;"></td>
+          <td style="border:2px solid #0e3d46;"></td>
+          <td style="border:2px solid #0e3d46;"></td>
+        </tr>
+        <tr>
+          <td style="border:2px solid #0e3d46; height:80px;"></td>
+          <td style="border:2px solid #0e3d46;"></td>
+          <td style="border:2px solid #0e3d46;"></td>
+        </tr>
+      </table>
+    </div>
+
+    
+    <div style="display:flex; justify-content:space-between; margin-top:15px;">
+      <button style="background:black; color:white; border:none; border-radius:22px; padding:10px 28px; font-weight:900; box-shadow:5px 5px 0 #333; cursor:pointer;">Previous</button>
+      <button style="background:black; color:white; border:none; border-radius:22px; padding:10px 28px; font-weight:900; box-shadow:5px 5px 0 #333; cursor:pointer;">Next</button>
+    </div>
+  </div>
+
+  
+  <div style="padding:15px 40px; text-align:center;">
+    <button style="background:black; color:white; border:none; border-radius:22px; padding:12px 28px; font-weight:900; box-shadow:6px 6px 0 #333; cursor:pointer;" onclick="window.location.href='dashboard.html';">
+      Go back 
+    </button>
+  </div>
+
+</body>
+</html>

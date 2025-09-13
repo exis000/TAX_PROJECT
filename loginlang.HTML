@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - TaxBUZZ</title>
+</head>
+<body style="margin:0; height:100vh; background:linear-gradient(to bottom,#1E88E5,#fff); font-family:Arial,sans-serif; display:flex; flex-direction:column; justify-content:space-between;">
+
+  <div style="flex:1; display:flex; justify-content:space-between; align-items:center; padding:50px;">
+
+    <!-- LEFT SIDE -->
+    <div style="max-width:40%; display:flex; flex-direction:column; justify-content:center; margin-left:80px;">
+      <h1 style="font-size:4rem; margin:10px 0; font-weight:900;">TaxBUZZ</h1>
+      <h3 style="margin:0; font-size:1.8rem; font-weight:700;">Keep track on your Tax</h3>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div style="background:white; padding:40px; border-radius:20px; box-shadow:0 4px 12px rgba(0,0,0,0.2); width:380px; margin-right:80px;">
+      <h2 style="margin-bottom:20px; font-weight:800; text-align:center; color:#1976D2;">Login</h2>
+      <form onsubmit="window.location.href='dashboard.html'; return false;">
+        <input type="text" placeholder="Email/Phone" style="width:100%; padding:12px; margin:8px 0; border-radius:25px; border:1px solid #ccc; font-size:1rem;">
+        <input type="password" placeholder="Password" style="width:100%; padding:12px; margin:8px 0 15px 0; border-radius:25px; border:1px solid #ccc; font-size:1rem;">
+        <button 
+          type="submit"
+          style="width:100%; background:black; color:white; border:none; border-radius:25px; padding:15px; font-weight:900; box-shadow:5px 5px 0 #333; cursor:pointer;"
+          onmouseover="this.style.background='#444'; this.style.boxShadow='7px 7px 0 #111';"
+          onmouseout="this.style.background='black'; this.style.boxShadow='5px 5px 0 #333';">
+          LOGIN
+        </button>
+      </form>
+      <button 
+        style="margin-top:15px; width:100%; background:#1976D2; color:white; border:none; border-radius:25px; padding:12px; font-weight:800; box-shadow:5px 5px 0 #145A9E; cursor:pointer;"
+        onclick="window.location.href='wlcomeUI.html';"
+        onmouseover="this.style.background='#1565C0'; this.style.boxShadow='7px 7px 0 #0D3C75';"
+        onmouseout="this.style.background='#1976D2'; this.style.boxShadow='5px 5px 0 #145A9E';">
+        BACK
+      </button>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="background:#1976D2; color:white; text-align:center; padding:12px; font-weight:600;">
+    © 2025 TaxBUZZ — All rights reserved
+  </div>
+
+</body>
+</html>
